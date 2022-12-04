@@ -26,6 +26,7 @@ if (document.cookie.length == 0) {
     }
 } else {
     visitacookie = document.cookie.valueOf();
+    
     visitacookie = visitacookie.split("=");
     let confirma = window.confirm("cookie, confirma: ")
     if (confirma) {
